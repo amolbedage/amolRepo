@@ -1,4 +1,13 @@
-angular.module('UserApp').controller('LoginController', ['$rootScope', '$scope', 'settings','$http','$window','$location','$templateCache','$stateParams','$state', function($rootScope, $scope, settings,$http,$window,$location,$templateCache,$stateParams,$state) {
+angular.module('UserApp').controller('LoginController', [
+'$rootScope', 
+'$scope', 
+'settings',
+'$http',
+'$window',
+'$location',
+'$templateCache',
+'$stateParams',
+'$state', function($rootScope, $scope, settings,$http,$window,$location,$templateCache,$stateParams,$state) {
     $scope.$on('$viewContentLoaded', function() {   
         // initialize core components
         //App.initAjax();
